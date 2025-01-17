@@ -1,6 +1,8 @@
 # TracerouteMap
 ## About
 Lua script that uses tshark (command line wireshark) and python to read a pcapng file and extract geoIP locations, then runs traceroute on every ipv4 address identified, saving each route to json. Then, a python script is used to convert this data into geojson form that is then fed into a static html page created using QGIS.
+## Demo
+an example output of a capture file is deployed [here](https://stanisaur.github.io/TracerouteMap/)
 ## Prerequisites
 - Operating system that has a UNIX compatible
 - lua 5.4 & lualanes,
