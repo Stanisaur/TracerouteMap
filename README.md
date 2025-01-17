@@ -12,7 +12,11 @@ Todo: add self contained release which only requires configured tshark install
 Todo: add windows support(only minimal changes are required
 
 ## Usage
-in
+in the root directory, run
+```
+lua traceroute.lua <PATH_TO_CAPTURE_FILE>
+```
+
 
 ## Limitations
 - threading: many traceroutes have to be ran as there are many addresses present in the average capture file, running the script will take a few minutes if >100 IP addresses. From experimentation with lualanes, more than 10 traceroutes running concurrently can affect results and causes slowdowns on my device
