@@ -1,6 +1,6 @@
 # TracerouteMap
 ## About
-lua script that uses tshark (command line wireshark) and python to read a pcapng file and extract geoIP locations, then runs traceroute on every ipv4 address identified, saving each route to json. Then, a python script is used to convert this data into geojson form that is then fed into a static html page created using QGIS.
+Lua script that uses tshark (command line wireshark) and python to read a pcapng file and extract geoIP locations, then runs traceroute on every ipv4 address identified, saving each route to json. Then, a python script is used to convert this data into geojson form that is then fed into a static html page created using QGIS.
 ## Prerequisites
 - Operating system that has a UNIX compatible
 - lua 5.4 & lualanes,
@@ -12,7 +12,7 @@ Todo: add self contained release which only requires configured tshark install
 Todo: add windows support(only minimal changes are required
 
 ## Usage
-in the root directory, run
+in the root directory of the repository, run the following command in terminal
 ```
 lua traceroute.lua <PATH_TO_CAPTURE_FILE>
 ```
