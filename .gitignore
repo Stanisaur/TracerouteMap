@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ignore docs as docs exists soley for gihub pages convenience
+docs/
